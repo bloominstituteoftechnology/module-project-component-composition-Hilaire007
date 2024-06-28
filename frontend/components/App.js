@@ -20,7 +20,7 @@ function App() {
           console.log(err.message);
         });
     }
-    //fetchPhoto()
+    fetchPhoto();
     setApod({
       date: "2024-06-24",
       explanation:
